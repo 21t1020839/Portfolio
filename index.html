@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lê Quang Vũ - Lập trình Microsoft</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Animated Particle Background -->
+    <div id="particles-js" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:0;"></div>
+
+    <header class="header" style="position:relative;z-index:1;">
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="dark-mode-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+        <div class="hero parallax-bg">
+            <h1 class="scroll-reveal">Xin chào, tôi là Lê Quang Vũ</h1>
+            <p class="tagline">Lập trình Microsoft</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Liên hệ với tôi</a>
+                <a href="#projects" class="btn btn-secondary">Xem dự án</a>
+            </div>
+            <div class="mouse-scroll-icon">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="about" class="section introduction scroll-reveal">
+            <div class="section-header">
+                <h2 data-aos="fade-up">Về Tôi</h2>
+            </div>
+            <div class="about-content">
+                <div class="profile-image" data-aos="fade-right">
+                    <div class="image-frame">
+                        <img src="https://via.placeholder.com/300" alt="Lê Quang Vũ">
+                    </div>
+                </div>
+                <div class="profile-text" data-aos="fade-left">
+                    <p>Xin chào! Tôi là <strong>Lê Quang Vũ</strong>, một <strong>Lập trình Microsoft</strong> đến từ Hà Nội, Việt Nam.</p>
+                    <p>Tôi có niềm đam mê với việc tạo ra các giải pháp công nghệ hiện đại trên nền tảng Microsoft. Ngoài lập trình, tôi thích <strong>chụp ảnh, đọc sách và đi du lịch</strong>.</p>
+                    <p>Hiện tại, tôi đang tìm kiếm cơ hội làm việc mới trong lĩnh vực phát triển phần mềm Microsoft.</p>
+                    <div class="stats-container" data-aos="fade-up">
+                        <div class="stat-item">
+                            <span class="counter" data-target="25">0</span>
+                            <p>Dự án hoàn thành</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="counter" data-target="5">0</span>
+                            <p>Năm kinh nghiệm</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="counter" data-target="30">0</span>
+                            <p>Khách hàng hài lòng</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills scroll-reveal">
+            <div class="section-header">
+                <h2 data-aos="fade-up">Kỹ Năng</h2>
+            </div>
+            <div class="skills-container scroll-reveal">
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="skill-progress" data-percentage="90">
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <span>90%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="skill-progress" data-percentage="85">
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <div class="skill-progress" data-percentage="75">
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <div class="skill-progress" data-percentage="70">
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects scroll-reveal">
+            <div class="section-header">
+                <h2 data-aos="fade-up">Dự Án</h2>
+            </div>
+            <div class="filter-buttons" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Tất cả</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects-container">
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Website Thương Mại Điện Tử</h3>
+                        <p>Một trang web bán hàng hoàn chỉnh với giỏ hàng, thanh toán và quản lý sản phẩm.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Ứng Dụng Quản Lý Công Việc</h3>
+                        <p>Ứng dụng web giúp theo dõi và quản lý các công việc hàng ngày.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Thiết Kế Website Portfolio</h3>
+                        <p>Thiết kế UI/UX cho trang web portfolio cá nhân với phong cách hiện đại.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience scroll-reveal">
+            <div class="section-header">
+                <h2 data-aos="fade-up">Kinh Nghiệm</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Frontend Developer</h3>
+                        <span class="timeline-date">2022 - Hiện tại</span>
+                        <p>ABC Technology</p>
+                        <p>Phát triển giao diện người dùng cho các ứng dụng web, sử dụng React và các công nghệ hiện đại.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Web Designer</h3>
+                        <span class="timeline-date">2020 - 2022</span>
+                        <p>XYZ Design Studio</p>
+                        <p>Thiết kế và phát triển các trang web responsive, tối ưu trải nghiệm người dùng.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intern Web Developer</h3>
+                        <span class="timeline-date">2019 - 2020</span>
+                        <p>DEF Solutions</p>
+                        <p>Học hỏi và phát triển kỹ năng lập trình web, tham gia vào các dự án thực tế.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="contact" class="contact-section scroll-reveal">
+        <div class="section-header">
+            <h2 data-aos="fade-up">Liên Hệ</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form" data-aos="fade-right">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Họ và tên</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Tiêu đề</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tin nhắn</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                </form>
+            </div>
+            <div class="contact-info" data-aos="fade-left">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>nguyenvana@email.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+84 123 456 789</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Hà Nội, Việt Nam</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal cho các dự án -->
+    <div class="modal">
+        <div class="modal-container">
+            <span class="close-modal">&times;</span>
+            <div class="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Nút quay lại đầu trang -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Lê Quang Vũ</h3>
+                <p>Lập trình Microsoft</p>
+            </div>
+            <div class="footer-links">
+                <h4>Liên kết nhanh</h4>
+                <ul>
+                    <li><a href="#about">Về tôi</a></li>
+                    <li><a href="#skills">Kỹ năng</a></li>
+                    <li><a href="#projects">Dự án</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lê Quang Vũ. Tất cả các quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="particles-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
